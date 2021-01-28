@@ -6,11 +6,12 @@ import {
   Switch,
 } from "react-router-dom";
 import { URLS } from "./constants/path";
+import "./index.scss";
 import CreateCard from "./pages/CreateCard";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App stretch">
       <Router>
         <Switch>
           <Route path="/" exact>

@@ -1,7 +1,12 @@
 import React from "react";
+import PageLayout from "../../components/PageLayout";
 
 const CreateCard: React.FC = () => {
-  return <div>Hello this is create card</div>;
+  return (
+    <PageLayout>
+      <div>Hello this is the create card</div>
+    </PageLayout>
+  );
 };
 
 export default CreateCard;
