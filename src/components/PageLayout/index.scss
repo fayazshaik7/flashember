@@ -1,0 +1,17 @@
+@import "../../scss/variables";
+
+.page-layout {
+  background-color: $pagebg;
+
+  .page-header {
+    height: 50px;
+    background-color: $white;
+
+    .page-heading {
+      font-weight: bold;
+      font-style: italic;
+      font-size: 24px;
+      color: $page-heading;
+    }
+  }
+}
